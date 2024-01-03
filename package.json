@@ -1,0 +1,17 @@
+{
+  "name": "5050",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/html": "^0.7.0",
+    "elysia": "latest",
+    "prettier": "^3.0.3"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/start.js"
+}
